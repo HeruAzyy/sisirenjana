@@ -91,7 +91,7 @@ html {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url(/src/img/hero.jpg);
+  background-image: url(src/img/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
