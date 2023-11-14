@@ -2,6 +2,6 @@
   "workbench.colorTheme": "Andromeda Bordered",
   "workbench.iconTheme": "vscode-icons",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontWeight": "200",
+  "editor.fontWeight": "300",
   "editor.formatOnSave": true
 }
