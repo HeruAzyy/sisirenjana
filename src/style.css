@@ -187,12 +187,14 @@ html {
 /* ABOUT SECTION */
 .about,
 .menu,
+.products,
 .contact {
   padding: 8rem 7% 1.4rem;
 }
 
 .about h1,
 .menu h1,
+.products h1,
 .contact h1 {
   text-align: center;
   font-size: 2rem;
@@ -233,6 +235,7 @@ html {
   margin: 1rem;
 }
 .menu p,
+.products p,
 .contact p {
   text-align: center;
   max-width: 40rem;
@@ -265,6 +268,53 @@ html {
 
 .menu > p {
   font-size: 1.3rem;
+}
+
+/* PRODUCTS SECTION */
+.products .row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+  margin-top: 4rem;
+}
+
+.products .product-card {
+  text-align: center;
+  border: 1px solid #666;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.products .product-icon {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.products .product-icon a {
+  width: 4rem;
+  height: 4rem;
+  color: #fff;
+  margin: 0.3rem;
+  border: 1px solid #666;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products .product-icon a:hover {
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.products .product-image {
+  padding: 1rem 0;
+}
+
+.products .product-image img {
+  height: 25rem;
+  border-radius: 10px;
 }
 
 /* CONTACT SECTION */
